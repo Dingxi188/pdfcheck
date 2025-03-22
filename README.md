@@ -16,9 +16,14 @@ Ein leichtgewichtiges Bash-Skript, das eine PDF-Datei in Einzelseiten aufteilt u
 mv pdfcheck.sh pdfcheck      # 重命名为你喜欢的命令 Rename the script
 chmod +x pdfcheck            # 添加可执行权限 Make it executable
 
+
+#注意注意注意: 注意要使用cd 命令找到pdfcheck脚本的位置。再用./pdfcheck ../ICAS_BF_ICCC25.pdf  
+
+
 ./pdfcheck/ 空格 /完整的pdf路径文件.pdf     #初始化结束后，你就可以使用了。
                                         #只要输入你的pdf的路径。 摁住键盘option之后双指点击屏幕。可以复制文件路径。
 z.B ./pdfcheck    /Users/xiding/Downloads/ICAS_BF_ICCC25luca.pdf 
+
 
 
 
