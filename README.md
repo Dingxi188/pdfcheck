@@ -7,14 +7,15 @@ A lightweight Bash script to split a PDF into single pages and check the fonts u
 Ein leichtgewichtiges Bash-Skript, das eine PDF-Datei in Einzelseiten aufteilt und die verwendeten Schriftarten prüft.
 
 ---
+# Step 1: 克隆项目 Clone the repo (or download the script)
+git clone https://github.com/你的用户名/你的仓库名.git
+cd 你的仓库名/scripts
 
-## 🚀 快速开始 | Quick Start | Schnellstart
-如果你按照我的办法安装完后，可以使用一下办法初始化。
-### 📥 安装 Installation
+# Step 2: 将脚本重命名（可选） Rename the script (optional)
+mv pdfcheck.sh pdfcheck
 
-```bash
-mv pdfcheck.sh pdfcheck      # 重命名为你喜欢的命令 Rename the script
-chmod +x pdfcheck            # 添加可执行权限 Make it executable
+# Step 3: 赋予执行权限 Make the script executable
+chmod +x pdfcheck
 
 
 #注意注意注意: 注意要使用cd 命令找到pdfcheck脚本的位置。再用./pdfcheck ../ICAS_BF_ICCC25.pdf  
