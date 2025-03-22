@@ -1,5 +1,7 @@
 # 📝 pdfcheck – PDF Font Checker
 
+
+Papers often have font requirements. We use this document to split the entire document into pages and then check the fonts.论文很多时候有字体要求，我们通过本文件把整个文件拆成一页一页的，然后检查字体
 一个轻量级的 Bash 脚本，用于将 PDF 拆分为单页，并检查每一页所使用的字体。  
 A lightweight Bash script to split a PDF into single pages and check the fonts used on each page.  
 Ein leichtgewichtiges Bash-Skript, das eine PDF-Datei in Einzelseiten aufteilt und die verwendeten Schriftarten prüft.
